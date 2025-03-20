@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    font-family: 'Poppins';
+}
+
+.up1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(rgb(232, 224, 231),violet);
+
+}
+.p5{
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    margin-left: 100px;
+    border-top-left-radius: 0.6em;
+    border-bottom-right-radius: 0.6em;
+    padding: 5px;
+    transition-duration: 1s;
+}
+.p5:hover{
+    background-color: rgb(251, 203, 251);
+    cursor: pointer;
+}
+.up{
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+    padding: 2em;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    background-color: white;
+    animation-name: signup;
+    animation-duration: 1s;
+    transition-duration: 1s;
+}
+.up:hover{
+    transform: scale(1.2);
+}

@@ -1,0 +1,64 @@
+#send{
+    cursor: disabled;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#otp{
+    color: rgb(139, 244, 139);
+    padding: 6px;
+    font-size: 18px;
+
+}
+.Forget{
+    border: 1px solid black;
+    margin-top: 300px;
+    padding: 19px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition-duration: 1s;
+
+}
+.Forget:hover,.forget-button:hover,#send:hover{
+    transform: scale(1.1);
+}
+.forget-head{
+    padding: 0;
+    margin: 0;
+    margin-left: 80px;
+}
+#send{
+    width: 100px;
+    padding: 3px;
+    border-radius: 4px;
+    transition-duration: 1s;
+    margin-left: 6px;
+}
+#send:hover{
+    background-color: lightblue;
+}
+.forget-button{
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 6px;
+    text-decoration: none;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    color: black;
+    width: 100px;
+    margin-left: 140px;
+    transition-duration: 1s;
+}
+.forget-button:hover{
+    background-color: lightblue;
+}
+#Forget-otp{
+    display: none;
+}
